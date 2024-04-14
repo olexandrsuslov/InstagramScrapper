@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{25DEBDED-4F9C-47F5-BC3F-4D5ED7D42090}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstagramApiSharp", "src\InstagramApiSharp\InstagramApiSharp.csproj", "{2A588963-CEBE-47EC-BFBB-2F3D405E4C80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoDownloader", "src\VideoDownloader\VideoDownloader.csproj", "{3062E066-B55D-45E9-90BC-835BB91BA912}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A588963-CEBE-47EC-BFBB-2F3D405E4C80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A588963-CEBE-47EC-BFBB-2F3D405E4C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A588963-CEBE-47EC-BFBB-2F3D405E4C80}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{2A588963-CEBE-47EC-BFBB-2F3D405E4C80}.Debug|ARM.Build.0 = Debug|Any CPU
+		{2A588963-CEBE-47EC-BFBB-2F3D405E4C80}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2A588963-CEBE-47EC-BFBB-2F3D405E4C80}.Debug|x64.Build.0 = Debug|Any CPU
+		{2A588963-CEBE-47EC-BFBB-2F3D405E4C80}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2A588963-CEBE-47EC-BFBB-2F3D405E4C80}.Debug|x86.Build.0 = Debug|Any CPU
+		{2A588963-CEBE-47EC-BFBB-2F3D405E4C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A588963-CEBE-47EC-BFBB-2F3D405E4C80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A588963-CEBE-47EC-BFBB-2F3D405E4C80}.Release|ARM.ActiveCfg = Release|Any CPU
+		{2A588963-CEBE-47EC-BFBB-2F3D405E4C80}.Release|ARM.Build.0 = Release|Any CPU
+		{2A588963-CEBE-47EC-BFBB-2F3D405E4C80}.Release|x64.ActiveCfg = Release|Any CPU
+		{2A588963-CEBE-47EC-BFBB-2F3D405E4C80}.Release|x64.Build.0 = Release|Any CPU
+		{2A588963-CEBE-47EC-BFBB-2F3D405E4C80}.Release|x86.ActiveCfg = Release|Any CPU
+		{2A588963-CEBE-47EC-BFBB-2F3D405E4C80}.Release|x86.Build.0 = Release|Any CPU
+		{3062E066-B55D-45E9-90BC-835BB91BA912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3062E066-B55D-45E9-90BC-835BB91BA912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3062E066-B55D-45E9-90BC-835BB91BA912}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{3062E066-B55D-45E9-90BC-835BB91BA912}.Debug|ARM.Build.0 = Debug|Any CPU
+		{3062E066-B55D-45E9-90BC-835BB91BA912}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3062E066-B55D-45E9-90BC-835BB91BA912}.Debug|x64.Build.0 = Debug|Any CPU
+		{3062E066-B55D-45E9-90BC-835BB91BA912}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3062E066-B55D-45E9-90BC-835BB91BA912}.Debug|x86.Build.0 = Debug|Any CPU
+		{3062E066-B55D-45E9-90BC-835BB91BA912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3062E066-B55D-45E9-90BC-835BB91BA912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3062E066-B55D-45E9-90BC-835BB91BA912}.Release|ARM.ActiveCfg = Release|Any CPU
+		{3062E066-B55D-45E9-90BC-835BB91BA912}.Release|ARM.Build.0 = Release|Any CPU
+		{3062E066-B55D-45E9-90BC-835BB91BA912}.Release|x64.ActiveCfg = Release|Any CPU
+		{3062E066-B55D-45E9-90BC-835BB91BA912}.Release|x64.Build.0 = Release|Any CPU
+		{3062E066-B55D-45E9-90BC-835BB91BA912}.Release|x86.ActiveCfg = Release|Any CPU
+		{3062E066-B55D-45E9-90BC-835BB91BA912}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A588963-CEBE-47EC-BFBB-2F3D405E4C80} = {25DEBDED-4F9C-47F5-BC3F-4D5ED7D42090}
+		{3062E066-B55D-45E9-90BC-835BB91BA912} = {25DEBDED-4F9C-47F5-BC3F-4D5ED7D42090}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47999AC0-6BDC-43EB-BB19-674E8470ECDD}
+	EndGlobalSection
+EndGlobal
