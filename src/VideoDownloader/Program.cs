@@ -8,7 +8,6 @@ namespace VideoDownloader;
 
 class Program
 {
-
     public static UserSessionData userSession { get; set; }
     public static IInstaApi api { get; set; }
 
@@ -16,7 +15,6 @@ class Program
         
     static async Task Main(string[] args)
     {
-        
         Console.WriteLine("Enter your Instagram username: ");
         var username = Console.ReadLine();
 
@@ -129,5 +127,4 @@ class Program
             }
         }
     }
-    
 }
